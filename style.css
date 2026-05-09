@@ -43,6 +43,20 @@ h3 {
    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.12);
 }
 
+.card-link {
+   text-decoration: none;
+   color: inherit;
+}
+
+.card-link .card {
+   transition: 0.3s;
+}
+
+.card-link .card:hover {
+   transform: translateY(-5px);
+   cursor: pointer;
+}
+
 .card-img-top {
    height: 190px;
    object-fit: cover;
